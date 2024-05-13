@@ -33,7 +33,6 @@
         }
     }
 ?>
-
 <!DOCTYPE html>
 
 <html>
@@ -146,7 +145,6 @@
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
 }
-
 .file-button:hover {
   background-color: #007bff;
   color: #fff;
@@ -223,7 +221,6 @@
                 <a href="example.txt" target="_blank" class="file-button">example.txt</a>
                 <a href="example.xlsx" target="_blank" class="file-button">example.xlsx</a>
                 <a href="example.pptx" target="_blank" class="file-button">example.pptx</a>
-
             </div>
         </div>
         </div>

@@ -1,0 +1,212 @@
+header{
+    background-color: rgb(246, 213, 249);
+    margin: 0;
+}
+
+nav{
+    float: left;
+    width: 280px;
+    height: 480px;
+    background-color: rgb(165, 35, 185);
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 10px;
+
+}
+#feature1,#feature2,#feature3,#feature4,#feature5,#feature6,#feature7{
+    background-color: rgb(165, 35, 185);
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid lavender;
+    font-style: normal;
+    color: white;
+    font-size: 15.2px;
+    cursor: pointer;
+    
+}
+
+#featurebutton2:hover,#featurebutton3:hover,#featurebutton4:hover,#featurebutton5:hover,#featurebutton6:hover,#featurebutton7:hover{
+    background-color: rgb(246, 199, 253);
+    color: black;
+    border-color:  rgb(165, 35, 185);
+
+}
+
+
+.topDash{
+    margin: 20px;
+}
+.bottomDash{
+    margin: 20px;
+
+}
+#featurebutton2,#featurebutton3,#featurebutton4,#featurebutton5,#featurebutton6,#featurebutton7{
+    background-color: rgb(165, 35, 185);
+    width: 300px;
+    height: 60px;
+    margin: 40px;
+    margin-top: 90px;
+    border: 3px solid lavender;
+    border-radius: 15px;
+    font-style: normal;
+    color: white;
+    font-size: 15.2px;
+    cursor: pointer;
+
+    
+}
+
+
+
+.table-container {
+    width: 50px;
+    height: 50px;
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+.Dash {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.error{
+    font: red;
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+ }
+.Dashboard {
+    width: 1100px;
+    margin-left: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.instructor-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 500px;
+}
+
+.instructor-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.instructor-info p {
+    margin-bottom: 10px;
+}
+
+.instructor-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+.container {
+    display: flex;
+}
+.instructor-info li {
+    margin-bottom: 5px;
+}
+
+#newsletterForm {
+    margin-top: 20px;
+}
+
+p {
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: rgb(165, 35, 185);
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(144, 30, 162);
+}
+#paymentTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#paymentTable th, #paymentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#paymentTable th {
+    background-color: #f2f2f2;
+}
+
+#paymentTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#paymentTable tr:hover {
+    background-color: #ddd;
+}
+#approve{
+    padding: 5px 10px; 
+    margin-right: 10px; 
+    background-color: #217fcc;
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+}#details{
+    padding: 5px 10px; 
+    margin-right: 10px; 
+    background-color: #4CAF50;
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+#delete {
+    padding: 5px 10px; 
+    margin-right: 10px; 
+    background-color: #e72720; 
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+#approve:hover{
+    background-color: #2648a5;
+}#details:hover {
+    background-color: #45a049;
+}#delete:hover {
+    background-color: #991f13;
+}

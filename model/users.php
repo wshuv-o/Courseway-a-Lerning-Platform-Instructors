@@ -364,5 +364,27 @@ function insertPersonalChat($fromId, $toId, $message) {
         echo "<p style='color: red;'>Error: " . $e->getMessage() . "</p>";
     }
 }
+function getUserBalanceByInstructorId($instructor_id) {
+    global $conn;
+    try {
+        $stmt = $conn->prepare("SELECT * FROM instructor_account WHERE instructor_id = ?");
+        if (!$stmt) {
+            throw new Exception($conn->error); 
+        }
+        $stmt->bind_param("i", $instructor_id);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        
+        if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                $balance = $row['balance'];
+            }
+        }
+        return $balance;
+    } catch (Exception $e) {
+        echo "<p style='color: red;'>Error: " . $e->getMessage() . "</p>"; 
+        
+    }
+}
 
 ?>

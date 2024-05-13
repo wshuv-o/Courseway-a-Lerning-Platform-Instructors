@@ -55,7 +55,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </table>
     </fieldset>
     
-    
+<br>
+<br>
+<br>
     <div class="login-container">
         <h2>Login</h2>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" onsubmit="return validateForm()" method="post" novalidate>
@@ -73,7 +75,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <?php if (isset($error_message)) echo "<p class='error-message'>$error_message</p>"; ?>
     </div>
 
-
+<br>
+<br>
+<br>
 
     <script src="validation.js"></script>
 <?php footer_show();?>

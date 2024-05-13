@@ -23,20 +23,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change Password</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <script src="https://kit.fontawesome.com/aedd1f342b.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <?php header_show(); ?>
+    <?php header_show(); 
+        side_bar_show()
+    ?>
     <table width="100%"> 
             <tr>
                 <td width="150px">
-                    <ul>
-                        <li><a href="dashboard.php">Dashboard</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">Communication</a></li>
-                        <li><a href="profile.php">Profile</a></li>
-                        <li><a href="changePass.php">change Pass</a></li>
-                        <li><a href="../controllers/logout.php">Logout</a></li>
-                    </ul>
+                    
                 </td>
                 <td align=center>
                     <br>
